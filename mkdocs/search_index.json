@@ -9,6 +9,11 @@
             "location": "/#welcome-to-my-site", 
             "text": "", 
             "title": "Welcome to My Site"
+        }, 
+        {
+            "location": "/gchart/", 
+            "text": "Google Chart\u30b5\u30f3\u30d7\u30eb", 
+            "title": "Sample01"
         }
     ]
 }
