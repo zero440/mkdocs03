@@ -12,7 +12,7 @@
         }, 
         {
             "location": "/chart/", 
-            "text": "", 
+            "text": "!--Load the AJAX API--\n\n\nscript type=\"text/javascript\" src=\"https://www.gstatic.com/charts/loader.js\"\n/script\n\n\nscript type=\"text/javascript\"\n\n\n  // Load the Visualization API and the corechart package.\n  google.charts.load('current', {'packages':['corechart']});\n\n  // Set a callback to run when the Google Visualization API is loaded.\n  google.charts.setOnLoadCallback(drawChart);\n\n  // Callback that creates and populates a data table,\n  // instantiates the pie chart, passes in the data and\n  // draws it.\n  function drawChart() {\n\n    // Create the data table.\n    var data = new google.visualization.DataTable();\n    data.addColumn('string', 'Topping');\n    data.addColumn('number', 'Slices');\n    data.addRows([\n      ['Mushrooms', 3],\n      ['Onions', 1],\n      ['Olives', 1],\n      ['Zucchini', 1],\n      ['Pepperoni', 2]\n    ]);\n\n    // Set chart options\n    var options = {'title':'How Much Pizza I Ate Last Night',\n                   'width':400,\n                   'height':300};\n\n    // Instantiate and draw our chart, passing in some options.\n    var chart = new google.visualization.PieChart(document.getElementById('chart_div'));\n    chart.draw(data, options);\n  }\n\n/script", 
             "title": "Sample01"
         }
     ]
