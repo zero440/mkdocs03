@@ -1,0 +1,6 @@
+site_name: A Google Chart Sample
+pages:
+- ホーム: index.md
+- 本サイトについて: about.md
+- サンプル集: samples/index.md
+
