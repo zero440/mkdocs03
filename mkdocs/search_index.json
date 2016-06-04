@@ -11,8 +11,8 @@
             "title": "Welcome to My Site"
         }, 
         {
-            "location": "/gchart/", 
-            "text": "Google Chart\u30b5\u30f3\u30d7\u30eb", 
+            "location": "/chart/", 
+            "text": "", 
             "title": "Sample01"
         }
     ]
