@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../img/favicon.ico">
 
-	<title>チャート - A Google Chart Sample</title>
+	<title>サンプル - A Google Chart Sample</title>
 
         <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
@@ -65,14 +65,14 @@
                 
                 
                 
-                    <li class="active">
-                        <a href="./">チャート</a>
+                    <li >
+                        <a href="../chart/">チャート</a>
                     </li>
                 
                 
                 
-                    <li >
-                        <a href="../samples/">サンプル</a>
+                    <li class="active">
+                        <a href="./">サンプル</a>
                     </li>
                 
                 
@@ -87,12 +87,12 @@
                 </li>
                 
                     <li >
-                        <a rel="next" href="../about/">
+                        <a rel="next" href="../chart/">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
-                    <li >
-                        <a rel="prev" href="../samples/">
+                    <li class="disabled">
+                        <a rel="prev" >
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -108,11 +108,22 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
+        <li class="main active"><a href="#google-charts">Google Charts</a></li>
+        
+            <li><a href="#_1">サンプル</a></li>
+        
+    
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<div id="chart_div">ここにチャート</div></div>
+<h1 id="google-charts">Google Charts</h1>
+<h2 id="_1">サンプル</h2>
+<p><!--Div that will hold the pie chart-->
+<div id="chart_div"></div></p>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script src="data.js"></script></div>
             
         </div>
 
