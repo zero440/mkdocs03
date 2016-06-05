@@ -1,6 +1,7 @@
 site_name: A Google Chart Sample
+dev_addr: 0.0.0.0:8080
 pages:
 - ホーム: index.md
 - 本サイトについて: about.md
-- サンプル集: samples/index.md
-
+- チャート: chart.md
+- 'サンプル': 'samples/index.md'
