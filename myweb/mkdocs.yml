@@ -3,5 +3,4 @@ dev_addr: 0.0.0.0:8080
 pages:
 - ホーム: index.md
 - 本サイトについて: about.md
-- チャート: chart.md
 - 'サンプル': 'samples/index.md'
