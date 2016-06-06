@@ -7,7 +7,7 @@ repo_url: https://github.com/katzkawai/mkdocs03/
 extra_javascript: []
 extra_css: []
 markdown_extensions: []
-theme: readthedocs
+# git@github.com:katzkawai/mkdocs03.git
 pages:
 - ホーム: index.md
 - 本サイトについて: about.md
