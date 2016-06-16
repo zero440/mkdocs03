@@ -2,7 +2,7 @@ site_name: A Google Chart Sample
 dev_addr: 0.0.0.0:8080
 site_description: Examples of integrating MkDocs with 3rd Party Libraries.
 site_author: Katz Kawai
-site_url: http://katzkawai.github.io/mkdocs03/
+site_url: http://zero440.github.io/mkdocs03/
 repo_url: https://github.com/katzkawai/mkdocs03/
 extra_javascript: []
 extra_css: []
@@ -11,4 +11,5 @@ markdown_extensions: []
 pages:
 - ホーム: index.md
 - 本サイトについて: about.md
+
 - 'サンプル': 'samples/index.md'
