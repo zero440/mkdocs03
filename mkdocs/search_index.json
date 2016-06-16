@@ -21,6 +21,16 @@
             "title": "\u672c\u30b5\u30a4\u30c8\u306b\u3064\u3044\u3066"
         }, 
         {
+            "location": "/test/", 
+            "text": "\u30c6\u30b9\u30c8\n\n\n\u3067\u304d", 
+            "title": "\u30c6\u30b9\u30c8"
+        }, 
+        {
+            "location": "/test/#_1", 
+            "text": "\u3067\u304d", 
+            "title": "\u30c6\u30b9\u30c8"
+        }, 
+        {
             "location": "/samples/", 
             "text": "Google Charts\n\n\n\u30b5\u30f3\u30d7\u30eb", 
             "title": "\u30b5\u30f3\u30d7\u30eb"

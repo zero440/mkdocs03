@@ -3,24 +3,32 @@
 
     
     <url>
-     <loc>http://katzkawai.github.io/mkdocs03//</loc>
-     <lastmod>2016-06-05</lastmod>
+     <loc>http://zero440.github.io/mkdocs03//</loc>
+     <lastmod>2016-06-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
     <url>
-     <loc>http://katzkawai.github.io/mkdocs03//about/</loc>
-     <lastmod>2016-06-05</lastmod>
+     <loc>http://zero440.github.io/mkdocs03//about/</loc>
+     <lastmod>2016-06-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
     <url>
-     <loc>http://katzkawai.github.io/mkdocs03//samples/</loc>
-     <lastmod>2016-06-05</lastmod>
+     <loc>http://zero440.github.io/mkdocs03//test/</loc>
+     <lastmod>2016-06-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>http://zero440.github.io/mkdocs03//samples/</loc>
+     <lastmod>2016-06-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
