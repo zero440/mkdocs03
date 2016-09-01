@@ -8,7 +8,7 @@
   
   <meta name="author" content="Katz Kawai">
   
-  <title>グラフ - 課題ページ</title>
+  <title>コードメモ - 課題ページ</title>
   
 
   <link rel="shortcut icon" href="../img/favicon.ico">
@@ -23,9 +23,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "グラフ";
-    var mkdocs_page_input_path = "glaph.md";
-    var mkdocs_page_url = "/glaph/";
+    var mkdocs_page_name = "コードメモ";
+    var mkdocs_page_input_path = "code.md";
+    var mkdocs_page_url = "/code/";
   </script>
   
   <script src="../js/jquery-2.1.1.min.js"></script>
@@ -62,19 +62,22 @@
 <li>
           
             <li>
-    <li class="toctree-l1 current">
-        <a class="current" href="./">グラフ</a>
-        
-            <ul>
-            
-            </ul>
+    <li class="toctree-l1 ">
+        <a class="" href="../glaph/">グラフ</a>
         
     </li>
 <li>
           
             <li>
-    <li class="toctree-l1 ">
-        <a class="" href="../code/">コードメモ</a>
+    <li class="toctree-l1 current">
+        <a class="current" href="./">コードメモ</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#_1">作成時のメモ</a></li>
+                
+            
+            </ul>
         
     </li>
 <li>
@@ -101,7 +104,7 @@
     
       
     
-    <li>グラフ</li>
+    <li>コードメモ</li>
     <li class="wy-breadcrumbs-aside">
       
         
@@ -115,7 +118,26 @@
           <div role="main">
             <div class="section">
               
-                <p><img alt="自動車の年別盗難件数グラフ" src="../pictures/tonan.png" title="自動車盗難件数のグラフ" /></p>
+                <h1 id="_1">作成時のメモ</h1>
+<p>csvファイルから作成したい<br />
+git hub上にアップロードしたcsvファイルを読み込むためにrowで確認したURLでは直接取得することが
+できなそうだったので、getURL関数を使うようだが、R用のパッケージが分からずじまい<br />
+<div style="text-align: center;">
+↓手入力に変更
+</div></p>
+<p><strong>datax = c(31790,27515,25815,23775,25238,21319,21529,16104,13821)</strong>  </p>
+<p><strong>barplot(datax, names.arg=c("H19","H20","H21","H22","H23","H24","H25","H26","H27"), 
+main="自動車の年別盗難件数",xlab="年",ylab="件数",ylim=c(0,35000))</strong>  </p>
+<p>ベクトル型のdataxを準備（値は各年別の自動車盗難件数)　要素数:９<br />
+barplot関数で棒グラフを作成、オプションでラベル名等付与  </p>
+<ul>
+<li>barplot 棒グラフ作成関数</li>
+<li>names.arg　要素名を与える</li>
+<li>main グラフタイトル</li>
+<li>xlab X軸のラベル</li>
+<li>ylab Y軸のラベル</li>
+<li>ylim=c(下限,上限) Y軸で表示する数値範囲の指定</li>
+</ul>
               
             </div>
           </div>
@@ -123,10 +145,8 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../code/" class="btn btn-neutral float-right" title="コードメモ">Next <span class="icon icon-circle-arrow-right"></span></a>
       
-      
-        <a href=".." class="btn btn-neutral" title="ホーム"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../glaph/" class="btn btn-neutral" title="グラフ"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -154,10 +174,8 @@
           <a href="https://github.com/katzkawai/mkdocs03/" class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
       
       
-        <span><a href=".." style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../glaph/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
-      
-        <span style="margin-left: 15px"><a href="../code/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
