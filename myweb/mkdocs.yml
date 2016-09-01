@@ -10,5 +10,5 @@ markdown_extensions: []
 # git@github.com:katzkawai/mkdocs03.git
 pages:
 - ホーム: index.md
-- グラ: glaph.md
+- ぐらふ: glaph.md
 - 'サンプル': 'samples/index.md'
