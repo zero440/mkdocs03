@@ -1,3 +1,3 @@
-# Welcome to My Site
+# 課題ページ
 
-- MkDocsとGoogle Chart Toolsを使ったサンプル
+- Rでのグラフ作成とWebページへの反映

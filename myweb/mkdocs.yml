@@ -10,5 +10,6 @@ markdown_extensions: []
 # git@github.com:katzkawai/mkdocs03.git
 pages:
 - ホーム: index.md
-- ぐらふ: glaph.md
-- 'サンプル': 'samples/index.md'
+- グラフ: glaph.md
+- コードメモ: code.md
+theme: readthedocs
